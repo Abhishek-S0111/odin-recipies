@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/top-close-up-view-vegetables-tomatoes-with-pedicels-garlic-bell-peppers-lemon-oil-onion_140725-72203.jpg?t=st=1730987915~exp=1730991515~hmac=63fa0e7370e8a06acfa2687e6db42539d9c9f26fdcf750ed5a7c2738f1fcf8e6&w=996);
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+h1{
+    margin-top: 2em;
+    text-align: center;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: 0.03em;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-wrap: normal;
+    width: 50%;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin: 8em auto;
+    justify-content: space-evenly;
+}
+
+a{
+    width: auto;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
