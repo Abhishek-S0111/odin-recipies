@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+    margin: 1em 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 3em;
+    -webkit-text-stroke-color: brown;
+    -webkit-text-stroke-width: 1px;
+}
+
+img{
+    display: block;
+    position: relative;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin: 0em auto;
+    border-radius: 2em;
+    border: 1em double sandybrown
+}
+
+.description-container{
+    margin: 1em auto;
+    justify-content: safe;
+    width: 50%;
+    border: 0.2em solid sandybrown;
+    border-radius: 20px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1.3em;
+    background-color: aliceblue;
+}
+
+.ingredients-container{
+    border-top: 0.3em dashed green;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.ingredients-container ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.ingredients-container li, .steps-container li{
+    padding: 0.3em;
+    font-size: 1.3em;
+}
